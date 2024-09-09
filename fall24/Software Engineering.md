@@ -10,6 +10,7 @@ Created: 2024-09-02T11:12
 _ex:_ A pandemic breaks out!!
 
 ## Group
+**The Most Epic(s)** 
 - Nick
 - Marie
 - Tony
@@ -18,3 +19,5 @@ _ex:_ A pandemic breaks out!!
 
 - [ ] Project: Create an app that the media team can use to check out cameras for students.
 
+### Planning Process
+*A 10 step process that details the phases of creating software for a client.* 
