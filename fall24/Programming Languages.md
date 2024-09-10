@@ -1,6 +1,9 @@
 ---
-Created: 2024-09-02T13:02
+id: Programming Languages
+aliases: []
+tags: []
 Class: CSCI 3600
+Created: 2024-09-02T13:02
 ---
 ## Evolution of Procedural Programming Languages
 
@@ -42,7 +45,16 @@ _Backus-Naur Form_
 - **S** - start symbol
 - **P** - production rules
 
-  
+ **Type Coercion** - when the operands of an operator are different types, one of them will be converted to an "equivalent" value of the other operand's type. 
+    ex:
+        ```language
+            boolean = false
+            integer = 1
+            boolean = integer
+            # >> boolean = true
+        ```
+    This uses type conversion
+
 
 ### General Problem of Describing Syntax
 
@@ -69,3 +81,22 @@ _Backus-Naur Form_
 ### Formal Methods of Describing Syntax 1/3
 
 - Development
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
