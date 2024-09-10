@@ -93,3 +93,7 @@ Forms are spaces on HTML pages that can receive user input.
     - POST
 - `label` - labels an input field. used for describing an input field
     - If you link it to an input label using the `for` attribute, when you click on the label, it will focus on the input box.
+### Databases
+
+Data is stored in tables (rows and columns) but it's not actually stored in rows and columns?
+* How is it actually stored?
