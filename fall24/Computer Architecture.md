@@ -6,7 +6,7 @@ Class: CSCI 4200
 Created: 2024-08-29T10:01
 Type: Lecture
 ---
-## **Code Pipeline**
+# **Code Pipeline**
 
 source code
 
@@ -199,5 +199,43 @@ printf("Variable x is located at %p\n", &x)
 ```
 The above code first **allocates** spaces for an integer *(usually 4 or 8 bytes)* with the name `x` and stores `x` in the **memory location** referenced by the name `x`. the association between 'x' and the location *does not* change! you can see the location by referencing the `&` (address-of) operator.
 
+The `%p` format specifier prints the address in hexadecimal.
+
+> [!NOTE] Data Location
+> The address could be different every time because the memory location changes each time the program is run
+
+
+
 **Pointer**: A pointer is a variable that holds a memory address.
 	Pointers are declared using the asterisk `*` operator
+	This is essentially still a variable which references an allocated place in memory.
+	The difference is that the memory location which pointers reference holds the address of another place in memory.
+		*It's called a pointer because it points to another location in memory.*
+	Until it is initialized, it doesn't point at anything.
+	Good idea to initialize it to something when creating it, even `null` if necessary.
+
+Take the following:
+
+```c
+int x = 10;
+int* p = NULL;
+```
+
+How can we set pointer `p` to be reference the memory location of `x`?
+We use the previously mentioned address-of operator: `&`
+
+```c
+int x = 10;
+int*p = NULL;
+p = &x;
+```
+
+`p` now points to the address of `x`. `x` remains an integer.
+
+If we want to print the *value* that `p` is referencing (the value *`10`* of the variable *`x`* whose address is stored in the pointer *`p`* ) we can use the dereference operator `*`.
+
+```c
+printf("Dereferenced value of pointer p is %d\n", *p)
+```
+
+This will print `10`, as that is the value of `x`, which `p` is pointing to.
