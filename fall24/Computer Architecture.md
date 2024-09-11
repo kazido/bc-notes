@@ -68,7 +68,7 @@ specific purpose registers (cannot be touched)
 
 # The C Language
 
-```JavaScript
+```c
 // This code wouldn't work because function 'b' is not defined yet.
 void a( )
 {
@@ -82,7 +82,7 @@ void b()
 
   
 
-```JavaScript
+```c
 // That would work, until we want to call function 'a' in 'b'.
 void b(char c)
 {
