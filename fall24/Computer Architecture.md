@@ -66,7 +66,7 @@ specific purpose registers (cannot be touched)
 
   
 
-## The C Language
+# The C Language
 
 ```JavaScript
 // This code wouldn't work because function 'b' is not defined yet.
@@ -95,6 +95,31 @@ void a(int a, int b)
 // To solve this problem, we use function prototypes.
 ```
 
+### Format Specifiers
+
+*Used to insert variables into a string.*
+
+| Format Specifier | Description                                |
+| ---------------- | ------------------------------------------ |
+| `%c`             | For character type.                        |
+| `%d***`          | For signed integer type.                   |
+| `%e or %E`       | For scientific notation of floats.         |
+| `%f`             | For float type.                            |
+| `%g or %G`       | For float type with the current precision. |
+| `%i`             | signed integer                             |
+| `%ld or %li`     | Long                                       |
+| `%lf`            | Double                                     |
+| `%Lf`            | Long double                                |
+| `%lu`            | Unsigned int or unsigned long              |
+| `%lli or %lld`   | Long long                                  |
+| `%llu`           | Unsigned long long                         |
+| `%o`             | Octal representation                       |
+| `%p`             | Pointer                                    |
+| `%s`             | String                                     |
+| `%u`             | Unsigned int                               |
+| `%x or %X`       | Hexadecimal representation                 |
+| `%n`             | Prints nothing                             |
+| `%%`             | Prints % character                         |
 ### Function Prototypes
 
 The signature of the function which contains just the data types. The purpose of this is to tell the compiler that the function exists so that it’s not ==undefined==.
