@@ -191,3 +191,13 @@ You could either:
 
 > [!important]  
 > word: the smallest addressable unit of memory that can be accessed by the processor. In most modern systems, a word is typically 32 or 64 bits.
+
+### Pointers in C
+```c
+int x = 5;
+printf("Variable x is located at %p\n", &x)
+```
+The above code first **allocates** spaces for an integer *(usually 4 or 8 bytes)* with the name `x` and stores `x` in the **memory location** referenced by the name `x`. the association between 'x' and the location *does not* change! you can see the location by referencing the `&` (address-of) operator.
+
+**Pointer**: A pointer is a variable that holds a memory address.
+	Pointers are declared using the asterisk `*` operator
