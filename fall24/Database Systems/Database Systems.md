@@ -97,3 +97,11 @@ Forms are spaces on HTML pages that can receive user input.
 
 Data is stored in tables (rows and columns) but it's not actually stored in rows and columns?
 * How is it actually stored?
+
+#### ER Diagrams
+- Used to map out *Entity Relations*.
+- ex: Student with all its attributes
+	- -> has Phone number
+	- attributes are marked by ovals stemming from the box
+	- doubled ovals have multiple attributes
+	- diamonds represent relations
