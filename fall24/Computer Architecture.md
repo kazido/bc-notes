@@ -263,4 +263,4 @@ If we want to print the *value* that `p` is referencing (the value *`10`* of the
 printf("Dereferenced value of pointer p is %d\n", *p)
 ```
 
-This will print `10`, as that is the value of `x`, which `p` is pointing to.
+This will print `10`, as that is the value of `x`, which `p` is pointing to. `1`
