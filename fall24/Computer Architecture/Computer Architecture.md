@@ -102,7 +102,7 @@ void a(int a, int b)
 | Format Specifier | Description                                |
 | ---------------- | ------------------------------------------ |
 | `%c`             | For character type.                        |
-| `%d***`          | For signed integer type.                   |
+| `%d`             | For signed integer type.                   |
 | `%e or %E`       | For scientific notation of floats.         |
 | `%f`             | For float type.                            |
 | `%g or %G`       | For float type with the current precision. |

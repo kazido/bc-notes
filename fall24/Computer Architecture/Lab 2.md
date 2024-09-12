@@ -13,3 +13,12 @@ int p* = &x;
 **Q3:** If we dereferenced a pointer that had the value of `NULL`, I would imagine it would either throw an error or it would print null in the form of an address.
 
 **Q4:**  
+```c
+int *v = &t;
+printf("%d\n", *v);
+```
+If `int *v = &t;` was ran it would attempt to set the `int` value of `v` to the address of `t`, which wouldn't work since the types do not match.
+
+**Q5:** 
+`sizeof(int)`is `4`.
+`sizeof(3.14)` is `8`.
