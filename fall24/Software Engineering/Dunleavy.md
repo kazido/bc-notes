@@ -14,6 +14,7 @@ BookIt? MIT?
 - Online database where students can checkout cameras virtually
 - Students would input what they needed it for, date in, date out.
 
+
 **Ideas:**
 - Students should be able to check out cameras without having to go into Dr. Dunleavy's office.
 	- If he is busy with another student he often has to tell students to come back later if they want to check out a camera.
@@ -23,6 +24,7 @@ BookIt? MIT?
 - Section to manage inventory
 	- Table of all inventory
 	- Ability to add and remove inventory
+- Tags on each piece of equipment with codes that could be scanned
 
 | Bag # | Camera # | Serial No. | Bag Type | Camera Type | Battery | Manufacture Date |
 | ----- | -------- | ---------- | -------- | ----------- | ------- | ---------------- |
