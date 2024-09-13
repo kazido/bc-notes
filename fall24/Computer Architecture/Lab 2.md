@@ -22,3 +22,7 @@ If `int *v = &t;` was ran it would attempt to set the `int` value of `v` to the 
 **Q5:** 
 `sizeof(int)`is `4`.
 `sizeof(3.14)` is `8`.
+
+**Q6:** Show bytes prints out the next bytes after the passed pointer.
+Print all printed many, many 0's until I got a "segmentation fault" message in the terminal. 
+Printing all as characters game me strange tokens which I usually see when I try to show the bytes in VSCode.
