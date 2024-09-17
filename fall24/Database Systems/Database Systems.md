@@ -107,4 +107,7 @@ Data is stored in tables (rows and columns) but it's not actually stored in rows
 	- diamonds represent relations
 - Composite attribute
 	- Is made up of other attributes
-- Primar
+- Primary keys
+- Candidate keys
+- Double box means weak entity
+- Double circle means entity can have multiple of that attribute
