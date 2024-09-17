@@ -105,3 +105,6 @@ Data is stored in tables (rows and columns) but it's not actually stored in rows
 	- attributes are marked by ovals stemming from the box
 	- doubled ovals have multiple attributes
 	- diamonds represent relations
+- Composite attribute
+	- Is made up of other attributes
+- Primar
