@@ -264,3 +264,4 @@ printf("Dereferenced value of pointer p is %d\n", *p)
 ```
 
 This will print `10`, as that is the value of `x`, which `p` is pointing to. `1`
+
